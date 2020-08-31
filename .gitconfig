@@ -1,14 +1,14 @@
 [user]
-	name = arurke
+    name = arurke
 [alias]
-	s = status
-	d = diff
-	ds = diff --staged
-	cm = "!git commit -m \"$*\" && :"
-	ap = add -p
-	a = add
-	pushf = push --force-with-lease
+    ap = add -p
+    a = add
+    cm = "!git commit -m \"$*\" && :"
+    d = diff
+    pushf = push --force-with-lease
+    s = status
+    s = diff --staged
 [core]
-	editor = vim
+    editor = vim
 [rebase]
-	autosquash = true
+    autosquash = true
