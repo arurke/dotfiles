@@ -7,9 +7,9 @@
     co = checkout
     cob = checkout -b
     d = diff
+    ds = diff --staged
     pushf = push --force-with-lease
     s = status
-    s = diff --staged
 [core]
     editor = vim
 [rebase]
