@@ -4,6 +4,8 @@
     ap = add -p
     a = add
     cm = "!git commit -m \"$*\" && :"
+    co = checkout
+    cob = checkout -b
     d = diff
     pushf = push --force-with-lease
     s = status
