@@ -1,5 +1,5 @@
 [user]
-    name = arurke
+    name = Andreas Urke
 [alias]
     ap = add -p
     a = add
@@ -10,6 +10,7 @@
     ds = diff --staged
     pushf = push --force-with-lease
     s = status
+    home = checkout master
 [core]
     editor = vim
 [rebase]
