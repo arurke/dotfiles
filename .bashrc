@@ -104,6 +104,9 @@ fi
 
 alias g='git'
 alias viza='cd ~/workspace/vizacontiki/'
+alias windowsupdate='sudo apt-get update && sudo apt-get upgrade'
+alias vboxrs='pkill VBoxClient && VBoxClient-all'
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
