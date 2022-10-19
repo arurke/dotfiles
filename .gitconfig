@@ -11,6 +11,7 @@
     pushf = push --force-with-lease
     s = status
     home = checkout master
+    logo = log --oneline --graph
 [core]
     editor = vim
 [rebase]
