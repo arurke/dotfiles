@@ -12,6 +12,7 @@
     s = status
     home = checkout master
     logo = log --oneline --graph
+    append = commit --amend --no-edit
 [core]
     editor = vim
 [rebase]
