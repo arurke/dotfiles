@@ -13,6 +13,8 @@
     home = checkout master
     logo = log --oneline --graph
     append = commit --amend --no-edit
+    commitan = commit --amend --no-edit
+    alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 [core]
     editor = vim
 [rebase]
