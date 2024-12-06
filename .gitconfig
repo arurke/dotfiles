@@ -15,7 +15,16 @@
     append = commit --amend --no-edit
     commitan = commit --amend --no-edit
     alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+    cp = cherry-pick
+    branchsort = brv
 [core]
     editor = vim
 [rebase]
     autosquash = true
+[pull]
+    rebase = false
+[filter "lfs"]
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
