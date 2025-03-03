@@ -141,18 +141,3 @@ PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "\\\$ "'
 
 #PATH="$HOME/gcc-arm-none-eabi-5_4-2016q3/bin:$PATH"
 
-#### Uncomment, update, and paste this block in your .bashrc or equiv. #####
-
-# Path to vizacontiki repo (update to reflect your setup)
-vizapathprefix=~/vizaworkspace
-
-# Path to uniflash (update to reflect your setup)
-UNIFLASH_DIR="/opt/ti/uniflash_4.5.0"
-
-# BOARD-config to use, see vizacontiki/ (update to reflect your setup)
-CCXML_BOARD_CONFIG_FILE="uniflash440_xds100v3_cc1310F128.ccxml"
-
-# Uncomment, but do not modify
-#source $vizapathprefix/vizacontiki/tools/.bashrcviza
-##################### END BLOCK ############################################
-
